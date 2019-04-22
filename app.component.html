@@ -1,0 +1,20 @@
+<h1>{{title}}</h1>
+<nav>
+  <!-- <a href="#">Dropdown</a> -->
+  <select (change)="onNavigate($event.target.value)"> <option>--Select Option--</option> <option value="0">Arial</option> <option value="0">FreeSerif</option> <option value="0">Liberation Serif</option> <option value="0">Times New Roman</option> <option value="0">Ubuntu</option> </select>
+  <span> | </span>
+  <a [ngClass]="{ active: activeButton1 === 0 }" (click)="(activeButton1 > 0) ? activeButton1 = 0 : activeButton1 = 1; toggle($event)" id="0"><img src="https://img.icons8.com/metro/26/000000/bold.png"></a>
+  <a [ngClass]="{ active: activeButton2 === 0 }" (click)="(activeButton2 > 0) ? activeButton2 = 0 : activeButton2 = 1" id="0"><img src="https://img.icons8.com/metro/26/000000/italic.png"></a>
+  <a [ngClass]="{ active: activeButton3 === 0 }" (click)="(activeButton3 > 0) ? activeButton3 = 0 : activeButton3 = 1" id="0"><img src="https://img.icons8.com/ios/26/000000/underline-filled.png"></a>
+  <span> | </span>
+  <a [ngClass]="{ active: activeButton === 0 }" (click)="(activeButton === 0) ? activeButton = 9 : activeButton = 0" id="0"><img src="https://img.icons8.com/ios/26/000000/align-left-filled.png"></a>
+  <a [ngClass]="{ active: activeButton === 1 }" (click)="(activeButton === 1) ? activeButton = 9 : activeButton = 1" id="1"><img src="https://img.icons8.com/ios/26/000000/align-center-filled.png"></a>
+  <a [ngClass]="{ active: activeButton === 2 }" (click)="(activeButton === 2) ? activeButton = 9 : activeButton = 2" id="2"><img src="https://img.icons8.com/ios/26/000000/align-right-filled.png"></a>
+  <a [ngClass]="{ active: activeButton === 3 }" (click)="(activeButton === 3) ? activeButton = 9 : activeButton = 3" id="3"><img src="https://img.icons8.com/ios/26/000000/align-justify-filled.png"></a>
+  <span> | </span>
+  <a href="http://www.jonajo.com">Link 1</a>
+  <a href="http://angular.io">Link 2</a>
+</nav>
+<router-outlet></router-outlet>
+
+<a href="https://icons8.com/icons">Icons by Icons8</a>
