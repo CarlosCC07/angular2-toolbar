@@ -1,0 +1,82 @@
+[
+	{
+		"id": 0,
+		"name": "Font selector",
+		"type": "dropdown",
+		"options": ["Arial", "FreeSerif", "Liberation Serif", "Roboto", "Times New Roman", "Ubuntu"],
+		"icon": "",
+		"url": ""
+	},
+	{
+		"id": 1,
+		"name": "Bold button",
+		"type": "button",
+		"options": "",
+		"icon": "assets/icons/Bold.png",
+		"url": ""
+	},
+	{
+		"id": 2,
+		"name": "Italic button",
+		"type": "button",
+		"options": "",
+		"icon": "assets/icons/Italic.png",
+		"url": ""
+	},
+	{
+		"id": 3,
+		"name": "Underline button",
+		"type": "button",
+		"options": "",
+		"icon": "assets/icons/Underline.png",
+		"url": ""
+	},
+	{
+		"id": 4,
+		"name": "Left Align button",
+		"type": "button_group",
+		"options": "",
+		"icon": "assets/icons/LA.png",
+		"url": ""
+	},
+	{
+		"id": 5,
+		"name": "Center Align button",
+		"type": "button_group",
+		"options": "",
+		"icon": "assets/icons/CA.png",
+		"url": ""
+	},
+	{
+		"id": 6,
+		"name": "Right Align button",
+		"type": "button_group",
+		"options": "",
+		"icon": "assets/icons/RA.png",
+		"url": ""
+	},
+	{
+		"id": 7,
+		"name": "Justified Align button",
+		"type": "button_group",
+		"options": "",
+		"icon": "assets/icons/Justified.png",
+		"url": ""
+	},
+	{
+		"id": 8,
+		"name": "Link 1",
+		"type": "link",
+		"options": "",
+		"icon": "assets/icons/Link1.png",
+		"url": "http://www.jonajo.com"
+	},
+	{
+		"id": 9,
+		"name": "Link 2",
+		"type": "link",
+		"options": "",
+		"icon": "assets/icons/Link2.png",
+		"url": "http://angular.io"
+	}
+]

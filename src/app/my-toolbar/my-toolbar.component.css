@@ -1,0 +1,32 @@
+.toolbar-element {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.dropdown_selector {
+	font-family: roboto;
+	background: none;
+	border: 1px solid #cccccc;
+	margin-right: 10px;
+}
+
+a.button {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+button {
+	background: none;
+	border: none;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #afafaf;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
